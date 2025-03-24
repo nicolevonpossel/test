@@ -29,23 +29,23 @@ bibliography: files/bib/references.bib
 csl: files/bib/chicago-author-date.csl
 
 # Metadata stuff
-pagetitle: "{{< meta title >}} | Andrew Heiss"
-author-meta: "Andrew Heiss"
+pagetitle: "{{< meta title >}} | Nicole Von Possel"
+author-meta: "Nicole Von Possel"
 
 website:
-  title: "Andrew Heiss"
-  description: "Andrew Heiss is an assistant professor at Georgia State University, researching international NGOs and teaching data science & economics."
+  title: "Nicole Von Possel"
+  description: "Nicole Von Possel is a PhD student at the Max Planck Insitute for Marine Microbiology."
   favicon: "/files/favicon-512.png"
-  site-url: "https://www.andrewheiss.com"
-  repo-url: "https://github.com/andrewheiss/ath-quarto"
+  site-url: "https://nicolevonpossel.github.io/academic"
+  repo-url: "https://github.com/nicolevonpossel/academic"
 
   google-analytics: "UA-527449-5"
 
   twitter-card: 
     image: "/files/profiles/twitter-card-large.png"
     card-style: summary_large_image
-    creator: "@andrewheiss"
-    site: "@andrewheiss"
+    creator: "@nicolevonpossel"
+    site: "@nicolevonpossel"
 
   open-graph: 
     image: "/files/profiles/twitter-card-large.png"
@@ -57,47 +57,35 @@ website:
     left:
       - text: "About"
         href: "index.qmd"
-      - text: "CV"
-        href: "cv/index.qmd"
       - text: "Blog"
         file: blog/index.qmd
-      - text: "Research"
-        file: research/index.qmd
-      - text: "Teaching"
-        href: "teaching/index.qmd"
-      - text: "Talks"
-        href: "talks/index.qmd"
-      - text: "Now"
-        href: now/index.qmd
-      - text: "Uses"
-        file: uses/index.qmd
-    
+      - text: "Publications"
+        file: publication/index.qmd
+      - text: "CV"
+        href: "cv/index.qmd"
+      - text: "Leisure"
+        href: "leisure/index.qmd"
+        
     right:
-      - text: "{{< iconify bi rss size=1.1em title='RSS' >}}"
-        href: atom.xml
       - text: "{{< iconify bi envelope size=1.1em title='E-mail' >}}"
-        href: "mailto:aheiss@gsu.edu"
+        href: "mailto:npossel@mpi-bremen.de"      
+      - text: "{{< iconify bi maxplanckgesselschaft size=1.1em title='MPI' >}}"
+        href:  https://www.mpi-bremen.de/en/Nicole-Von-Possel.html
       - text: "{{< iconify fa6-brands bluesky size=1.1em title='Bluesky' >}}"
-        href: https://bsky.app/profile/andrew.heiss.phd
-        rel: me
-      - text: "{{< iconify bi mastodon size=1.1em title='Mastodon' >}}"
-        href: https://fediscience.org/users/andrew/
+        href: https://bsky.app/profile/nicolevonpossel.bsky.social
         rel: me
       - text: "{{< iconify bi github size=1.1em title='GitHub' >}}"
-        href: https://github.com/andrewheiss
+        href: https://github.com/nicolevonpossel
         rel: me
-      - text: "{{< iconify bi youtube size=1.1em title='YouTube' >}}"
-        href: https://www.youtube.com/andrewheiss
-        rel: me
-      - text: "{{< iconify fa6-brands blogger size=1.15em title='Blogger' >}}"
-        href: https://www.heissatopia.com/
       - text: "{{< iconify bi linkedin size=1.1em title='LinkedIn' >}}"
-        href: https://www.linkedin.com/in/andrewheiss
+        href: https://www.linkedin.com/in/nbvonpossel/
         rel: me
+      - text: "{{< iconify bi googlescholar size=1.1em title='GoogleScholar' >}}"
+        href: https://scholar.google.com/citations?user=DERzP-UAAAAJ&hl=en
   
   page-footer:
     left: |
-      <span class="faux-block">{{< fa brands creative-commons >}} {{< var years >}} Andrew Heiss</span>
+      <span class="faux-block">{{< fa brands creative-commons >}} {{< var years >}} Nicole Von Possel</span>
       <span class="faux-block">All content licensed under<br>[{{< fa brands creative-commons >}} {{< fa brands creative-commons-by >}} Creative Commons CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)</span>      
     center: |
       <span class="faux-block">{{< fa brands orcid >}} <strong>ORCID</strong> [{{< var orcid >}}](https://orcid.org/{{< var orcid >}})</span>
