@@ -1,0 +1,11 @@
+stages:
+  - build
+
+build_quarto_site:
+  image: ghcr.io/quarto-dev/quarto-r:latest
+  stage: build
+  script:
+    - quarto render
+  artifacts:
+    paths:
+      - _site
