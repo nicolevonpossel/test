@@ -1,0 +1,38 @@
+---
+title: "Hello there!"
+pagetitle: "Nicole Von Possel"
+description-meta: "Nicole Von Possel is a PhD student at the Max Planck Insitute for Marine Microbiology."
+main-photo: /files/profiles/andrew-heiss-2022.jpg
+main-photo-square: /files/profiles/andrew-heiss-2022-square.jpg
+title-block-banner: "#CF4446"
+format:
+  html:
+    quarto-template-params:
+      banner-header-class: "home"
+---
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-sm-4}
+
+```{=html}
+<div class="grid" style="--bs-columns: 5; row-gap: 0;">
+  <div class="g-col-1 g-col-sm-0"></div>
+  <div class="g-col-3 g-col-sm-5">
+    <picture>
+      <source media="(max-width: 576px)" srcset="{{< meta main-photo-square >}}">
+      <source media="(min-width: 576px)" srcset="{{< meta main-photo >}}">
+      <img class="img-fluid" src="{{< meta main-photo >}}" alt="{{< meta author-meta >}}">
+    </picture>
+  </div>
+  <div class="g-col-1 g-col-sm-0"></div>
+</div>
+```
+
+:::
+
+::: {.g-col-12 .g-col-sm-8}
+
+I'm a  at the Max Planck Insitute for Marine Microbiology. PhD student in the [Department of Molecular Ecology](https://mpi-bremen.de/en/Department-of-Molecular-Ecology.html) at the [Max Planck Institute for Marine Microbiology](https://mpi-bremen.de/en/Home.html) in [Bremen, Germany](https://www.bremen.eu/tourism/this-is-bremen/). 
+
+:::
